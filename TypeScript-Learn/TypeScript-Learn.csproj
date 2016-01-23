@@ -109,6 +109,8 @@
     <Content Include="BasicTypes\index.html" />
     <Content Include="Classes\app.css" />
     <Content Include="Classes\index.html" />
+    <Content Include="Functions\app.css" />
+    <Content Include="Functions\index.html" />
     <Content Include="Global.asax" />
     <Content Include="Interfaces\app.css" />
     <Content Include="Interfaces\index.html" />
@@ -129,6 +131,7 @@
     <Content Include="BasicTypes\readme.md" />
     <Content Include="Interfaces\readme.md" />
     <Content Include="Classes\readme.md" />
+    <Content Include="Functions\readme.md" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -139,6 +142,7 @@
   <ItemGroup>
     <TypeScriptCompile Include="BasicTypes\app.ts" />
     <TypeScriptCompile Include="Classes\app.ts" />
+    <TypeScriptCompile Include="Functions\app.ts" />
     <TypeScriptCompile Include="Interfaces\app.ts" />
     <TypeScriptCompile Include="Modules\app.ts" />
   </ItemGroup>
